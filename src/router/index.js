@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HomeInfo from '@/components/HomeInfo'
 import WordDefinition from '@/components/WordDefinition'
+import AddWordForm from '@/components/forms/AddWordForm'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/',
       name: 'HomeInfo',
       component: HomeInfo
+    },
+    {
+      path: '/addword',
+      name: 'HomeInfo',
+      component: AddWordForm
     }
   ]
 })

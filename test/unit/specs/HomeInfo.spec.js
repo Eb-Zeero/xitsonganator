@@ -5,7 +5,7 @@ describe('HomeInfo', () => {
   it('renders a message and responds correctly to user input', () => {
     const wrapper = shallow(HomeInfo, {
       data: {
-        word: 'this is some massage',
+        word: 'this is some massage'
       }
     })
 
