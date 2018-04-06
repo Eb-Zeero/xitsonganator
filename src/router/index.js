@@ -4,6 +4,7 @@ import HomeInfo from '@/components/HomeInfo'
 import WordDefinition from '@/components/WordDefinition'
 import AddWordForm from '@/components/forms/AddWordForm'
 import UserRegistrationForm from '@/components/forms/UserRegistrationForm'
+import ReportWordForm from '@/components/forms/ReportWordForm'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/userreg',
       name: 'HomeInfo',
       component: UserRegistrationForm
+    },
+    {
+      path: '/report',
+      name: 'HomeInfo',
+      component: ReportWordForm
     }
   ]
 })
